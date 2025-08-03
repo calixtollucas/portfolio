@@ -1,7 +1,7 @@
 import Header from "./components/sections/Header"
 import Hero from "./components/sections/Hero"
+import Skills from "./components/sections/Skills"
 import Sobre from "./components/sections/Sobre"
-import ToggleTheme from "./components/ToggleTheme"
 import { ThemeProvider } from "./context/ThemeContext"
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <main className="flex flex-col items-center gap-4 mt-20">
           <Hero />
           <Sobre />
+          <Skills />
         </main>
       </ThemeProvider>
     </>

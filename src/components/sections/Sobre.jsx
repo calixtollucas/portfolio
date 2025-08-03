@@ -1,4 +1,4 @@
-import data from '../../data/data.json';
+import data from '../../data/data';
 import { useRef } from 'react';
 import { motion, useInView } from 'motion/react';
 
