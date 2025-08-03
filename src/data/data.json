@@ -1,0 +1,5 @@
+{
+    "sobre": {
+        "description": "Sou Desenvolvedor Back-end especializado em Java, Spring Boot, bancos de dados Relacionais e Desenvolvimento de API's REST. Desde 2021 venho desenvolvendo APIs RESTful escaláveis e testáveis, aplicando princípios SOLID, arquitetura limpa, TDD e boas práticas de versionamento com Git. Tenho experiência com Java, Spring Boot (Spring Framework), JPA (Hibernate), PostgreSQL, MySQL, Redis, MongoDB, Docker, JUnit, Mockito e Maven — tecnologias que aplico em projetos reais e pessoais com foco em organização de código, automação de processos e estabilidade de sistemas."
+    }
+}
