@@ -2,30 +2,39 @@ import ToggleTheme from "../ToggleTheme"
 import { motion } from "motion/react"
 
 export default function Header() {
+
+    const handleScrollTo = (e, targetId) => {
+        e.preventDefault();
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
     const links = [
         {
             "name": "Home",
-            "href": "#home"
+            "href": "home"
         },
         {
             "name": "Sobre",
-            "href": "#sobre"
+            "href": "sobre"
         },
         {
             "name": "Skills",
-            "href": "#skills"
+            "href": "skills"
         },
         {
             "name": "Projetos",
-            "href": "#projetos"
+            "href": "projetos"
         },
         {
             "name": "Experiências",
-            "href": "#experiencias"
+            "href": "experiencias"
         },
         {
             "name": "Contato",
-            "href": "#contato"
+            "href": "contato"
         },
     ]
 
@@ -36,9 +45,10 @@ export default function Header() {
                     links.map((link, index) => (
                         <motion.a
                             key={index}
-                            href={link.href}
+                            href={`#${link.href}`}
                             className="text-primary hover:text-accent transition-colors duration-300"
                             whileHover={{ y: -2 }}
+                            onClick={(e) => handleScrollTo(e, link.href)}
                         >
                             {link.name}
                         </motion.a>
