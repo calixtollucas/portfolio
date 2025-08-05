@@ -198,7 +198,12 @@ const data = {
                 "Desenvolvi e implementei Dashboards dinâmicos usando Google Looker"
             ]
         }
-    ]
+    ],
+    contatos: {
+        email: "contato.lucaslcalixto334@gmail.com",
+        linkedin: "https://www.linkedin.com/in/lucaslcalixto/",
+        github: "https://github.com/calixtollucas"
+    }
 }
 
 export default data;

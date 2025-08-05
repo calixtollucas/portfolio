@@ -4,6 +4,7 @@ import Projects from "./components/sections/Projects"
 import Skills from "./components/sections/Skills"
 import Sobre from "./components/sections/Sobre"
 import Experiencias from "./components/sections/Experiencias"
+import Contato from "./components/sections/Contato"
 import { ThemeProvider } from "./context/ThemeContext"
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Skills />
           <Projects />
           <Experiencias />
+          <Contato />
         </main>
       </ThemeProvider>
     </>

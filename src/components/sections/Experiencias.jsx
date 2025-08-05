@@ -83,7 +83,7 @@ export default function Experiencias() {
                                 </span>
                             </div>
                         </div>
-                        <ul className="list-disc list-inside space-y-1 text-sm text-secondary-foreground/80">
+                        <ul className="list-disc list-inside space-y-1 text-sm text-primary">
                             {exp.responsibilities.map((resp, i) => (
                                 <li key={i}>{resp}</li>
                             ))}
