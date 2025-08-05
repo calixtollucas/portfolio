@@ -9,7 +9,7 @@ export default function Sobre() {
     return (
         <motion.section
             id="sobre"
-            className="flex flex-col items-center gap-4 mt-20"
+            className="flex flex-col items-center gap-4 mt-20 max-w-4/5"
             ref={ref}
             initial={{ opacity: 0, x: -100 }}
             animate={inView ? { opacity: 1, x: 0, transition: { duration: 2 } } : {}}
