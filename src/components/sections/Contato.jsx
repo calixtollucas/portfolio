@@ -51,7 +51,7 @@ export default function Contato() {
             </motion.h2>
 
             <motion.p
-                className="text-center text-lg text-secondary-foreground mb-12 max-w-2xl mx-auto"
+                className="text-center text-lg text-primary mb-12 max-w-2xl mx-auto"
                 variants={itemVariants}
             >
                 Ficarei feliz em me conectar! Encontre-me nas plataformas abaixo ou envie um email.
@@ -63,7 +63,7 @@ export default function Contato() {
             >
                 {/* Opções de Contato */}
                 <motion.a
-                    href={`mailto:${data.contatos.email}`} // <<-- Link direto para o e-mail
+                    href={`mailto:${data.contatos.email}`}
                     className="flex items-center gap-4 p-4 rounded-lg bg-card text-card-foreground hover:bg-card/80 hover:text-accent transition-colors shadow-md"
                     variants={itemVariants}
                     whileHover={
