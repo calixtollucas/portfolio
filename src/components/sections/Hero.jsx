@@ -3,7 +3,7 @@ import TypewriterText from "../TypewriterText";
 
 export default function Hero() {
     return (
-        <motion.section className="container flex flex-row gap-4 items-center justify-around p-5"
+        <motion.section className="container flex gap-4 items-center justify-around p-5 md:flex-row flex-col-reverse"
             initial={{ opacity: 0, y: 50 }}
             animate={{
                 opacity: 1, y: 0,
@@ -14,10 +14,10 @@ export default function Hero() {
             }}
             id="home"
         >
-            <div className="hero-left">
+            <div className="hero-left flex flex-col items-center md:items-start max-w-5/6">
                 <h3>Oi, eu sou o</h3>
                 <h1 className="text-5xl font-bold font-urbanist">Lucas Calixto</h1>
-                <TypewriterText className="font-mono text-accent text-2xl" text="Desenvolvedor Java Back-end" />
+                <TypewriterText className="font-mono text-accent text-1.5xl text-center md:text-2xl " text="Desenvolvedor Java Back-end" />
             </div>
             <motion.div
                 className="hero-right"
