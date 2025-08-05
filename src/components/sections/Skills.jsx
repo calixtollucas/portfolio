@@ -11,7 +11,7 @@ export default function Skills() {
             id='skills'
             className="flex flex-col items-center gap-6 mt-20"
             ref={ref}
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: 100 }}
             animate={inView ? { opacity: 1, x: 0, transition: { duration: 2 } } : {}}
         >
             <h2 className="text-5xl font-bold">Minhas Skills</h2>

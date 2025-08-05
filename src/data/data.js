@@ -123,7 +123,57 @@ const data = {
                 icon: SiGit
             }
         ],
-    }
+    },
+    projects: [
+        {
+            name: "API Forum Hub",
+            description: "Uma API feita em Java, Spring e MySQL que simula um backend de um forum, permitindo operações CRUD de usuários, tópicos e respostas",
+            repository: "https://github.com/calixtollucas/forum-hub",
+            technologies: [
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "JWT",
+                "MySQL",
+                "API REST"
+            ],
+        },
+        {
+            name: "Literalura",
+            description: "Um programa em CLI que realiza buscas na API Gutendex e oferece opções de cadastro e listagem de livros e autores. ",
+            repository: "https://github.com/calixtollucas/challenge-literalura-lucasodev",
+            technologies: [
+                "Java",
+                "Spring Boot",
+                "PostgreSQL",
+                "API REST",
+                "Consumo de API"
+            ],
+        },
+        {
+            name: "NeoJurix",
+            description: "NeoJurix foi desenvolvido com o proposito de oferecer ao núcleo de práticas jurídicas da faculdade maurício de nassau um sistema para o gerenciamento de atividades jurídicas.",
+            repository: "https://github.com/NotaJuris/backend-notajuris",
+            technologies: [
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "JWT",
+                "MySQL",
+                "API REST",
+            ],
+        },
+        {
+            name: "Conversor de Moedas",
+            description: "Uma aplicação em CLI de um conversor de moedas com cotação em tempo real, logs e boas práticas de programação com Java.",
+            repository: "https://github.com/calixtollucas/conversor-moedas",
+            technologies: [
+                "Java",
+                "Consumo de API",
+                "API REST",
+            ],
+        },
+    ]
 }
 
 export default data;
