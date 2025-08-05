@@ -173,6 +173,31 @@ const data = {
                 "API REST",
             ],
         },
+    ],
+    experiencias: [
+        {
+            role: "Suporte de TI",
+            company: "TV Arapuan",
+            dates: "Abr 2025 - Presente",
+            location: "João Pessoa, PB",
+            responsibilities: [
+                "Mantive e aprimorei performance de dispositivos de transmissão de vídeo ao vivo, garantindo sempre que possível a máxima qualidade e o maior custo benefício",
+                "Atuei como suporte de TI, resolvendo problemas técnicos de usuários e dando manuntenção em sistemas internos",
+                "Implementei novos fluxos operacionais para aplicar gravação de matérias jornalísticas em nuvem, otimizando o trabalho de editores e cinegrafistas",
+                "Participei ativamente de projetos internos do setor de TI, visando aprimorar a qualidade operacional dentro da empresa e automatizando processos."
+            ]
+        },
+        {
+            role: "Administrador de TI",
+            company: "ROREE",
+            dates: "Out 2024 - Mai 2025",
+            location: "João Pessoa, PB",
+            responsibilities: [
+                "fiz o Design e implementação de Landing Pages com Wordpress + Elementor para empresas",
+                "Gerenciei planilhas e outros sistemas internos da empresa, emitindo notas fiscais e organizando os dados",
+                "Desenvolvi e implementei Dashboards dinâmicos usando Google Looker"
+            ]
+        }
     ]
 }
 

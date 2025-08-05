@@ -3,6 +3,7 @@ import Hero from "./components/sections/Hero"
 import Projects from "./components/sections/Projects"
 import Skills from "./components/sections/Skills"
 import Sobre from "./components/sections/Sobre"
+import Experiencias from "./components/sections/Experiencias"
 import { ThemeProvider } from "./context/ThemeContext"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Sobre />
           <Skills />
           <Projects />
+          <Experiencias />
         </main>
       </ThemeProvider>
     </>
