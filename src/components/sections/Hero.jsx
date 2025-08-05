@@ -36,7 +36,7 @@ export default function Hero() {
                     }
                 }
             >
-                <img src="src/assets/eu.jpeg"
+                <img src="src/assets/euwebp.webp"
                     alt="Hero Image"
                     className="hero-image rounded-full w-64 h-64 object-cover shadow-lg"
                 />

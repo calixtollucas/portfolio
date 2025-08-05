@@ -43,7 +43,7 @@ export default function Experiencias() {
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
             variants={containerVariants}
-            className="container mx-auto p-8 pt-20"
+            className="container mx-auto p-8"
         >
             <motion.h2
                 className="text-4xl text-primary font-bold mb-12 text-center"
