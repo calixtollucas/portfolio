@@ -46,7 +46,7 @@ export default function Projects() {
                                 <CardContent className="flex flex-col gap-4 items-start justify-center">
                                     <h4 className="text-2xl font-bold font-montserrat">{p.name}</h4>
                                     <span className="text-sm">{p.description}</span>
-                                    <p>Repositório: <a target="_blank" className="underline" href={p.repository} >{p.repository}</a></p>
+                                    <p>Repositório: <a target="_blank" className="underline text-wrap whitespaces-wrap" href={p.repository} >{p.repository}</a></p>
                                     <div className="flex flex-wrap gap-5">
                                         {p.technologies.map((t, index) => (
                                             <Badge key={index} className="bg-accent">{t}</Badge>
