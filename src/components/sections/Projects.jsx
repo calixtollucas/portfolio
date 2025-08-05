@@ -28,10 +28,10 @@ export default function Projects() {
             initial={{ opacity: 0, x: -100 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 2, type: "spring", damping: 10, stiffness: 100 }}
-            className="flex flex-col items-center justify-center">
+            className="flex flex-col items-center justify-center w-screen">
             <h2 className="text-4xl text-primary font-bold">Meus Projetos</h2>
             <Carousel
-                className="m-20 w-3/5"
+                className="m-20 w-4/5"
                 setApi={(api) => apiRef.current = api}
                 opts={
                     {

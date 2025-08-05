@@ -16,7 +16,7 @@ export default function TypewriterText({ text, delay = 0, duration = 2.5, classN
 
     return (
         <motion.span
-            className={`whitespace-nowrap overflow-hidden block ${className || ''}`} // `block` para largura funcionar, `whitespace-nowrap` para não quebrar linha
+            className={`whitespace-wrap overflow-hidden block ${className || ''}`} // `block` para largura funcionar, `whitespace-nowrap` para não quebrar linha
             variants={textVariants}
             initial="hidden"
             animate="visible"

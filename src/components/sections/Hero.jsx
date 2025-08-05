@@ -16,8 +16,8 @@ export default function Hero() {
         >
             <div className="hero-left flex flex-col items-center md:items-start max-w-5/6">
                 <h3>Oi, eu sou o</h3>
-                <h1 className="text-5xl font-bold font-urbanist">Lucas Calixto</h1>
-                <TypewriterText className="font-mono text-accent text-1.5xl text-center md:text-2xl " text="Desenvolvedor Java Back-end" />
+                <h1 className="text-5xl font-bold font-urbanist text-center text-wrap md:text-left">Lucas Calixto</h1>
+                <TypewriterText className="font-mono text-accent text-2xl text-center" text="Desenvolvedor Java Back-end" />
             </div>
             <motion.div
                 className="hero-right"
