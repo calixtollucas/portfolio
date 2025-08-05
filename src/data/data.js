@@ -26,7 +26,7 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 
 const data = {
     sobre: {
-        "description": "Sou Desenvolvedor Back-end especializado em Java, Spring Boot, bancos de dados Relacionais e Desenvolvimento de API's REST. Desde 2021 venho desenvolvendo APIs RESTful escaláveis e testáveis, aplicando princípios SOLID, arquitetura limpa, TDD e boas práticas de versionamento com Git. Tenho experiência com Java, Spring Boot (Spring Framework), JPA (Hibernate), PostgreSQL, MySQL, Redis, MongoDB, Docker, JUnit, Mockito e Maven — tecnologias que aplico em projetos reais e pessoais com foco em organização de código, automação de processos e estabilidade de sistemas."
+        "description": "Sou Desenvolvedor Back-end com foco em Java, Spring Boot, PostgreSQL e boas práticas de código. Desde 2021, desenvolvo APIs RESTful escaláveis, aplicando princípios SOLID, arquitetura limpa, TDD e automação de processos. Tenho experiência prática com versionamento Git, autenticação com JWT, containers Docker e bancos relacionais e não relacionais. Busco sempre entregar código limpo, bem estruturado e orientado a resolver problemas reais"
     },
     skills: {
         languages: [
